@@ -123,4 +123,4 @@ def get_data(q):
 if __name__ == '__main__':
     t1 = threading.Thread(target=youtube_search)
     t1.start()
-    app.run(debug=True)
+    app.run(host = '0.0.0.0',port = 5000,debug=True)
