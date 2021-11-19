@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "6bd7e000-a817-4aee-980d-03a76c473a78",
+		"name": "youtube_api_real_time_data",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Fetch data in sorted manner",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/get/mobile",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"get",
+						"mobile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search based on title and description",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/search/7 BEST TRICEPS WORKOUT AT GYM WITH BARBELL ONLY\n\t/7 BEST TRICEPS WORKOUT AT GYM WITH BARBELL ONLY 6 BEST TRICEPS WORKOUT AT GYM THAT YOU NEVER DID 22 BEST TRICEP EXERICES AT ...",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"search",
+						"7 BEST TRICEPS WORKOUT AT GYM WITH BARBELL ONLY\n\t",
+						"7 BEST TRICEPS WORKOUT AT GYM WITH BARBELL ONLY 6 BEST TRICEPS WORKOUT AT GYM THAT YOU NEVER DID 22 BEST TRICEP EXERICES AT ..."
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
